@@ -4,7 +4,7 @@ def Friend():
     talk=st.text_input("you are my frd(yes/no)")
 
     if talk:
-     if talk == "yes" :
+     if talk .strip().lower() == "yes" :
         st.write("you are my spicial person ❤️‍🩹🫶🏻")
 
      else:
